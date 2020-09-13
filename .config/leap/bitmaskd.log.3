@@ -1,0 +1,68 @@
+2020-09-01T21:21:39+0200 [-] Loading /opt/bitmask/lib/bitmaskd.tac...
+2020-09-01T21:21:39+0200 [leap.bitmask.core.service#debug] Global token: 7e7b67a372604824b687fe3199ca45b5
+2020-09-01T21:21:39+0200 [-] Loaded.
+2020-09-01T21:21:39+0200 [twisted.scripts._twistd_unix.UnixAppLogger#info] twistd 17.9.0 (/opt/bitmask/lib/bitmask 2.7.12) starting up.
+2020-09-01T21:21:39+0200 [twisted.scripts._twistd_unix.UnixAppLogger#info] reactor class: twisted.internet.epollreactor.EPollReactor.
+2020-09-01T21:21:39+0200 [leap.bitmask.bonafide.service.BonafideService#debug] Starting Bonafide Service
+2020-09-01T21:21:39+0200 [leap.bitmask.hooks#debug] registering hook on_passphrase_entry->soledad
+2020-09-01T21:21:39+0200 [leap.bitmask.hooks#debug] registering hook on_bonafide_auth->soledad
+2020-09-01T21:21:39+0200 [leap.bitmask.hooks#debug] registering hook on_passphrase_change->soledad
+2020-09-01T21:21:39+0200 [leap.bitmask.hooks#debug] registering hook on_bonafide_auth->keymanager
+2020-09-01T21:21:39+0200 [leap.bitmask.hooks#debug] registering hook on_bonafide_auth->mail
+2020-09-01T21:21:39+0200 [leap.bitmask.hooks#debug] registering hook on_bonafide_logout->mail
+2020-09-01T21:21:39+0200 [leap.bitmask.core._session.SessionService#info] Starting Session Service
+2020-09-01T21:21:39+0200 [leap.bitmask.core.mail_services.SoledadService#info] Starting Soledad Service
+2020-09-01T21:21:39+0200 [leap.bitmask.hooks#debug] registering hook on_new_soledad_instance->keymanager
+2020-09-01T21:21:39+0200 [leap.bitmask.hooks#debug] registering hook on_soledad_first_sync->keymanager
+2020-09-01T21:21:39+0200 [leap.bitmask.hooks#debug] registering hook on_new_soledad_instance->sessions
+2020-09-01T21:21:39+0200 [leap.bitmask.core.mail_services.KeymanagerService#debug] Starting Keymanager Service
+2020-09-01T21:21:39+0200 [leap.bitmask.hooks#debug] registering hook on_new_keymanager_instance->mail
+2020-09-01T21:21:39+0200 [leap.bitmask.core.mail_services.StandardMailService#info] Starting Mail Service
+2020-09-01T21:21:39+0200 [leap.bitmask.core.mail_services.IMAPService#info] Starting IMAP Service
+2020-09-01T21:21:40+0200 [-] LeapIMAPFactory starting on 1984
+2020-09-01T21:21:40+0200 [leap.bitmask.mail.imap.service.LeapIMAPFactory#info] Starting factory <leap.bitmask.mail.imap.service.LeapIMAPFactory instance at 0x7ffac188d170>
+2020-09-01T21:21:40+0200 [leap.bitmask.mail.imap.service#debug] IMAP4 Server is RUNNING in port  1984
+2020-09-01T21:21:40+0200 [leap.bitmask.core.mail_services.SMTPService#info] starting smtp service
+2020-09-01T21:21:40+0200 [-] SMTPFactory starting on 2013
+2020-09-01T21:21:40+0200 [leap.bitmask.mail.smtp.gateway.SMTPFactory#info] Starting factory <leap.bitmask.mail.smtp.gateway.SMTPFactory instance at 0x7ffac188d440>
+2020-09-01T21:21:40+0200 [leap.bitmask.core.mail_services.IncomingMailService#info] Starting Incoming Mail Service
+2020-09-01T21:21:40+0200 [leap.bitmask.core._zmq#info] Starting ZMQ dispatcher
+2020-09-01T21:21:40+0200 [leap.bitmask.core.web.service#debug] webdir: /opt/bitmask/lib/leap/bitmask_js/public
+2020-09-01T21:21:40+0200 [-] Site starting on 7070
+2020-09-01T21:21:40+0200 [twisted.web.server.Site#info] Starting factory <twisted.web.server.Site instance at 0x7ffac188de60>
+2020-09-01T21:21:41+0200 [twisted.python.log#info] "127.0.0.1" - - [01/Sep/2020:19:21:41 +0000] "GET / HTTP/1.1" 200 255 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Qt/5.5.1 Safari/538.1"
+2020-09-01T21:21:41+0200 [twisted.python.log#info] "127.0.0.1" - - [01/Sep/2020:19:21:41 +0000] "GET /app.bundle.js HTTP/1.1" 200 2091151 "http://localhost:7070/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Qt/5.5.1 Safari/538.1"
+2020-09-01T21:21:41+0200 [twisted.python.log#info] "127.0.0.1" - - [01/Sep/2020:19:21:41 +0000] "POST /API/bonafide/provider/list HTTP/1.1" 200 52 "http://localhost:7070/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Qt/5.5.1 Safari/538.1"
+2020-09-01T21:21:41+0200 [twisted.python.log#info] "127.0.0.1" - - [01/Sep/2020:19:21:41 +0000] "POST /API/bonafide/user/list HTTP/1.1" 200 29 "http://localhost:7070/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Qt/5.5.1 Safari/538.1"
+2020-09-01T21:21:41+0200 [twisted.python.log#info] "127.0.0.1" - - [01/Sep/2020:19:21:41 +0000] "POST /API/bonafide/provider/list HTTP/1.1" 200 52 "http://localhost:7070/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Qt/5.5.1 Safari/538.1"
+2020-09-01T21:21:42+0200 [twisted.python.log#info] "127.0.0.1" - - [01/Sep/2020:19:21:41 +0000] "POST /API/vpn/check/calyx.net HTTP/1.1" 200 105 "http://localhost:7070/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Qt/5.5.1 Safari/538.1"
+2020-09-01T21:21:42+0200 [leap.bitmask.bonafide.config.Provider#debug] BOOTSTRAP: Provider is already initialized, checking if there are newest config files...
+2020-09-01T21:21:42+0200 [leap.bitmask.bonafide.config.Provider#debug] Bootstrapping provider calyx.net
+2020-09-01T21:21:42+0200 [leap.common.http._HTTP11ClientFactory#info] Starting factory _HTTP11ClientFactory(<function quiescentCallback at 0x7ffac004f320>, <twisted.internet.endpoints._WrapperEndpoint object at 0x7ffac1899d10>)
+2020-09-01T21:21:42+0200 [leap.bitmask.bonafide._http#debug] RESPONSE GET 304 https://api.calyx.net:4430/provider.json
+2020-09-01T21:21:42+0200 [leap.bitmask.bonafide._http#debug] 304 (Not modified): https://api.calyx.net:4430/provider.json
+2020-09-01T21:21:42+0200 [twisted.python.log#info] "127.0.0.1" - - [01/Sep/2020:19:21:42 +0000] "POST /API/bonafide/provider/read HTTP/1.1" 200 748 "http://localhost:7070/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Qt/5.5.1 Safari/538.1"
+2020-09-01T21:21:42+0200 [leap.bitmask.bonafide._http#debug] RESPONSE GET 200 https://api.calyx.net:4430/1/configs.json
+2020-09-01T21:21:42+0200 [leap.bitmask.bonafide.config.Provider#warn] Cannot download services config yet, need auth
+2020-09-01T21:21:43+0200 [twisted.python.log#info] "127.0.0.1" - - [01/Sep/2020:19:21:43 +0000] "GET /img/planet.svg HTTP/1.1" 200 3980 "http://localhost:7070/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Qt/5.5.1 Safari/538.1"
+2020-09-01T21:21:43+0200 [twisted.python.log#info] "127.0.0.1" - - [01/Sep/2020:19:21:43 +0000] "GET /img/user.svg HTTP/1.1" 200 3814 "http://localhost:7070/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Qt/5.5.1 Safari/538.1"
+2020-09-01T21:21:43+0200 [twisted.python.log#info] "127.0.0.1" - - [01/Sep/2020:19:21:43 +0000] "POST /API/events/register/VPN_STATUS_CHANGED HTTP/1.1" 200 31 "http://localhost:7070/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Qt/5.5.1 Safari/538.1"
+2020-09-01T21:21:43+0200 [twisted.python.log#info] "127.0.0.1" - - [01/Sep/2020:19:21:43 +0000] "POST /API/vpn/status HTTP/1.1" 200 189 "http://localhost:7070/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Qt/5.5.1 Safari/538.1"
+2020-09-01T21:21:43+0200 [twisted.python.log#info] "127.0.0.1" - - [01/Sep/2020:19:21:43 +0000] "POST /API/events/register/VPN_STATUS_CHANGED HTTP/1.1" 200 31 "http://localhost:7070/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Qt/5.5.1 Safari/538.1"
+2020-09-01T21:21:43+0200 [twisted.python.log#info] "127.0.0.1" - - [01/Sep/2020:19:21:43 +0000] "POST /API/vpn/check/calyx.net HTTP/1.1" 200 105 "http://localhost:7070/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Qt/5.5.1 Safari/538.1"
+2020-09-01T21:21:43+0200 [twisted.python.log#info] "127.0.0.1" - - [01/Sep/2020:19:21:43 +0000] "GET /js/zxcvbn.js HTTP/1.1" 200 821792 "http://localhost:7070/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Qt/5.5.1 Safari/538.1"
+2020-09-01T21:21:43+0200 [twisted.python.log#info] "127.0.0.1" - - [01/Sep/2020:19:21:43 +0000] "GET /fa2772327f55d8198301fdb8bcfc8158.woff HTTP/1.1" 200 23424 "http://localhost:7070/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Qt/5.5.1 Safari/538.1"
+2020-09-01T21:21:43+0200 [twisted.python.log#info] "127.0.0.1" - - [01/Sep/2020:19:21:43 +0000] "POST /API/events/register/BONAFIDE_AUTH_DONE HTTP/1.1" 200 31 "http://localhost:7070/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Qt/5.5.1 Safari/538.1"
+2020-09-01T21:21:43+0200 [twisted.python.log#info] "127.0.0.1" - - [01/Sep/2020:19:21:43 +0000] "POST /API/vpn/status HTTP/1.1" 200 189 "http://localhost:7070/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Qt/5.5.1 Safari/538.1"
+2020-09-01T21:21:43+0200 [twisted.python.log#info] "127.0.0.1" - - [01/Sep/2020:19:21:43 +0000] "GET /img/disabled.svg HTTP/1.1" 200 3118 "http://localhost:7070/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Qt/5.5.1 Safari/538.1"
+2020-09-01T21:21:47+0200 [leap.common.http._HTTP11ClientFactory#info] Stopping factory _HTTP11ClientFactory(<function quiescentCallback at 0x7ffac004f320>, <twisted.internet.endpoints._WrapperEndpoint object at 0x7ffac1899d10>)
+2020-09-01T21:21:55+0200 [-] Received SIGTERM, shutting down.
+2020-09-01T21:21:55+0200 [leap.bitmask.core.mail_services.StandardMailService#info] Stopping Mail service
+2020-09-01T21:21:55+0200 [leap.bitmask.core.mail_services.SMTPService#info] Stopping SMTP Service
+2020-09-01T21:21:55+0200 [leap.bitmask.mail.smtp.gateway.SMTPFactory#info] Stopping factory <leap.bitmask.mail.smtp.gateway.SMTPFactory instance at 0x7ffac188d440>
+2020-09-01T21:21:55+0200 [leap.bitmask.core.mail_services.IMAPService#info] Stopping IMAP Service
+2020-09-01T21:21:55+0200 [leap.bitmask.mail.imap.service.LeapIMAPFactory#info] Stopping factory <leap.bitmask.mail.imap.service.LeapIMAPFactory instance at 0x7ffac188d170>
+2020-09-01T21:21:55+0200 [twisted.web.server.Site] (TCP Port 7070 Closed)
+2020-09-01T21:21:55+0200 [twisted.web.server.Site#info] Stopping factory <twisted.web.server.Site instance at 0x7ffac188de60>
+2020-09-01T21:21:55+0200 [-] Main loop terminated.
+2020-09-01T21:21:55+0200 [twisted.scripts._twistd_unix.UnixAppLogger#info] Server Shut Down.

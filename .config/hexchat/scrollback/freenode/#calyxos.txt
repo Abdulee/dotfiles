@@ -1,0 +1,21 @@
+T 1596490204 19*	Now talking on 22#calyxos
+T 1596490204 22*	Topic for 22#calyxos is: CalyxOS - a security and privacy focused OS for Android devices | https://calyxos.org | https://calyxinstitute.org | Report issues: https://gitlab.com/calyxos/calyxos/-/issues | Channel logs: https://freenode.logbot.info/calyxos
+T 1596490204 22*	Topic for 22#calyxos set by 26cdesai!~cd@lineageos/maintainer/cdesai (24Thu Jun 25 00:50:42 2020)
+T 1596490204 22*	Channel 22#calyxos url: 24https://calyxos.org/
+T 1596490213 20<klockx>30	Hello
+T 1596490387 20<klockx>30	guys I was gonna talk about Mi A2, I was looking to buy it for CalyxOs
+T 1596490439 20<klockx>30	I wanted to know does it work good I really haven't done much with AOSP's before so I am not sure about it myself
+T 1596490560 20<klockx>30	Also if anyone has some good set of install instructions
+T 1598703595 19*	Now talking on 22#calyxos
+T 1598703595 22*	Topic for 22#calyxos is: CalyxOS - a security and privacy focused OS for Android devices | https://calyxos.org | https://calyxinstitute.org | Report issues: https://gitlab.com/calyxos/calyxos/-/issues | Channel logs: https://freenode.logbot.info/calyxos
+T 1598703595 22*	Topic for 22#calyxos set by 26cdesai!~cd@lineageos/maintainer/cdesai (24Thu Jun 25 00:50:42 2020)
+T 1598703596 22*	Channel 22#calyxos url: 24https://calyxos.org/
+T 1598703609 20<klockx>30	hello everyone
+T 1598703688 19<cn3m[m]>	klockx: hello welcome
+T 1598703906 18<cn3m[m]18>	andonl: I am going to bed did you have something you wanted to say first?
+T 1598703998 18<SECLUDED-M3[m]18>	<NSA[m] "Grapheneos requires a step with "> Does CalyxOS need fastboot ?never tried custom rom.m
+T 1598704032 18<cn3m[m]18>	<SECLUDED-M3[m] "Does CalyxOS need fastboot ?neve"> yes
+T 1598704096 18<NSA[m]18>	<SECLUDED-M3[m] "Does CalyxOS need fastboot ?neve"> You need fastboot to unlock and lock the bootloader
+T 1598704294 18<alzxjm[m]18>	<NSA[m] "You need fastboot to unlock and "> And to flash the OS.
+T 1598705267 23*	jsuebtdvhflaur53 (jsuebtdvhf@gateway/shell/matrix.org/x-vlxleeywqjzqwmuj23) has joined
+T 1598705565 18<SECLUDED-M3[m]18>	Tnx 4 ur time! I'll add this to my checklist.

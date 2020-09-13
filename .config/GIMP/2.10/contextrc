@@ -1,0 +1,16 @@
+# GIMP user context
+
+(tool "gimp-scale-tool")
+(paint-info "gimp-paintbrush")
+(foreground (color-rgb 1 1 1))
+(background (color-rgb 0.67450980392156867 0.9882352941176471 0.85098039215686272))
+(brush "2. Hardness 100")
+(dynamics "Dynamics Off")
+(mybrush "100% Opaque")
+(pattern "Pine")
+(gradient "Custom")
+(palette "Color History")
+(font "Raleway Heavy")
+(tool-preset "Core Pointer")
+
+# end of user context

@@ -1,0 +1,5 @@
+T 1596843091 19*	Now talking on 22#gnulag
+T 1596843091 22*	Topic for 22#gnulag is: no
+T 1596843091 22*	Topic for 22#gnulag set by 26cheers!user@unaffiliated/cheers (24Wed May 27 19:42:14 2020)
+T 1596844126 Python interface unloaded
+T 1596844126 FiSHLiM plugin unloaded

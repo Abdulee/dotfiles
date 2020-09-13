@@ -1,0 +1,30 @@
+00:00:00.534661 VirtualBox GUI VM Selector Window 6.1.10 r138449 linux.amd64 (Jun  8 2020 08:33:44) release log
+00:00:00.534665 Log opened 2020-08-06T19:08:43.076462000Z
+00:00:00.534666 Build Type: release
+00:00:00.534668 OS Product: Linux
+00:00:00.534670 OS Release: 5.6.19-2-MANJARO
+00:00:00.534671 OS Version: #1 SMP PREEMPT Wed Jun 17 22:24:52 UTC 2020
+00:00:00.534696 DMI Product Name: ZenBook UX431DA_UM431DA
+00:00:00.534707 DMI Product Version: 1.0
+00:00:00.534713 Firmware type: UEFI
+00:00:00.535182 Secure Boot: Disabled
+00:00:00.535234 Host RAM: 5942MB (5.8GB) total, 4567MB (4.4GB) available
+00:00:00.535238 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.535238 Process ID: 10941
+00:00:00.535239 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.535281 Qt version: 5.15.0
+00:00:00.554262 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.554293 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:00.917526 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 0x28 x 1920x1052
+00:01:03.475056 GUI: UIMediumEnumerator: Medium with key={{015368d8-e123-45c7-80ca-8d67c393f44a}} created
+00:01:03.756548 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:16.869892 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:17.555361 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:17.559896 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:42.742861 GUI: UIMediumEnumerator: Medium with key={{a5c73125-6360-4009-b509-f914ccae7cce}} created
+00:01:42.804345 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:02:10.937492 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:02:11.082438 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:02:34.413225 GUI: UIMediumEnumerator: Medium-enumeration finished!
+01:27:16.702137 GUI: UIMediumEnumerator: Medium-enumeration finished!
+01:27:16.702428 Log rotated - Log started 2020-08-06T19:08:43.076462000Z

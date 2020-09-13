@@ -1,0 +1,12 @@
+T 1598101834 19*	Now talking on 22#riseup
+T 1598101834 22*	Topic for 22#riseup is: check out the new mail.riseup.net!
+T 1598101834 22*	Topic for 22#riseup set by 26taggart!~taggart@qsyav.lackof.org (24Fri Jul 31 19:33:22 2020)
+T 1598101834 -18ChanServ-	[#riseup] Hey, sorry but we don't give out invite codes here. To get such a code, you should get in touch with your local activist movement and get people to trust you and give you an invite. Spammers like to abuse our services. If you have a question, go ahead and ask, and try to stick around for as long as you can, we aren't all paying attention or awake!
+T 1598101603 20<klock>30	Hello everyone.
+T 1598101706 20<klock>30	I would like to get in touch with someone using the service. I am not very familiar or don't know about anyone who is using riseup. I came accross it as I was scrolling through an article of fsf
+T 1598102104 18<pollo18>	!invites
+T 1598102104 18*	nope_bot Sorry, you will not find an invite here. Though you may have no malicious intent, we cannot prove anyone who is who they say they are on the Internet. Because of this, we rely on our users to personally invite people they know. The best way to find yourself an invite is to get involved in activism. Inevitably, you will find Riseup users there.
+T 1598102122 18<pollo18>	If you have questions though, happy to answer
+T 1598104063 20<klock>30	hmmm okey 
+T 1598104117 Python interface unloaded
+T 1598104117 FiSHLiM plugin unloaded
